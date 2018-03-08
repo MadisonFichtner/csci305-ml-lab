@@ -1,4 +1,4 @@
-<Fichtner> <Madison>
+<Fichtner> <Madison>/.l
 CSCI 305
 Spring 2018
 Lab Questions
@@ -21,7 +21,12 @@ Lab Questions
 7.  The output for list2Set ["it", "was", "the", "best", "of", "times,", "it", "was", "the", "worst", "of", "times"]
     is: { best times, it was the worst of times } using the stringify function.
 
-8.
+8.  Tail recursion is a routine call that is performed directly before the end of a function.
+    It is a special case of recursion. They are powerful because they can be called without using
+    adding anything to the stack, this is called tail call elimination and it allows calls in the tail
+    position (end of function or procedure) to be implemented and used as easily as goto statements, which
+    is particularly useful in structured programming and functional programming languages. Using tail recursion
+    is efficient as a for loop.
 
 9.  The output for union (list2Set ["green", "eggs", "and"]) (list2Set ["ham"])
     is: { and eggs green ham } using the stringify function.
@@ -29,12 +34,18 @@ Lab Questions
 10. The output for intersect (list2Set ["stewed", "tomatoes", "and", "macaroni"]) (list2Set ["macaroni", "and", "cheese"])
     is: { and macaroni } using the stringify function
 
-11.
+11. I enjoyed the use of tail recursion. It's kind of a different way of thinking how to
+    iterate and solve problems. I am so used to the conventional Java, C, and Python syntax
+    of programming that it is interesting to do something completely different
 
-12.
+12. I disliked most of the syntax in ML. It is extremely difficult to get a grasp of
+    and is completely different from anything else I've ever worked with.
 
-13.
+13. I did not enjoy this lab. I'd rather be blunt that try to make something up. I disliked
+    the syntax in particular as I previously mentioned it did not make too much sense. The
+    function types and function format is difficult to grasp and harder to implement correctly.
 
-14.
+14. I spent approximately 6 hours on this lab.
 
-15.
+15. I don't think I'll personally use ML again. I see that it could be powerful for developing
+    quick functions. I guess that's maybe why it is a functional language...
